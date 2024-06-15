@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { AppBar, Box,Divider, IconButton, Toolbar, Typography, Drawer } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { NavLink } from 'react-router-dom';
-// import '../styles/HeaderStyle.css';
 import Logo from "../../images/logo.svg";
+import "../../styles/HeaderStyles.css";
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
